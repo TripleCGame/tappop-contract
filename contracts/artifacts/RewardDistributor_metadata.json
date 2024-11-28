@@ -1,0 +1,177 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "tokenAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "DebugLog",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "tokenAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct RewardDistributor.ReceiverInfo[]",
+						"name": "receiverInfos",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "uniqueId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "distribute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_signer",
+						"type": "address"
+					}
+				],
+				"name": "setSinger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "signer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RewardDistributor.sol": "RewardDistributor"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ECDSA.sol": {
+			"keccak256": "0xcbcb2f45a1c063335d182f4dd2b6670a44d6907b641aa187fe12e4542643ede8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93ce53cc81c1600340b275c9a70d1c336ddca445e6fa22712142bb1a36429cfd",
+				"dweb:/ipfs/QmY8UHfsLAGTfXyeRqjo7NwVyJpXQve7NvsxxyxmbkLxpz"
+			]
+		},
+		"contracts/EIP712.sol": {
+			"keccak256": "0xa1b5cb7c57424bca43c946d6f2852d3646616ef8e161c1f7c31e90dfaf293af4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://415059b852dd5d057ce82d71be6443e5cc27779528a4afdf3f09b647e5244fac",
+				"dweb:/ipfs/Qme4irbYt2Uj19GSx3W44BBaxa5BACSZGA2rwmMTB8Brxp"
+			]
+		},
+		"contracts/RewardDistributor.sol": {
+			"keccak256": "0x4d4baa3b707af44145e93c491f53366dd018b290693a9882c6167f9c218ca4b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://998046f842e3d80cd66c5cf0aaa50c04e1a5a717773d3c255415c2a381f72292",
+				"dweb:/ipfs/QmQWeA9wLwTghxtu8jgfQjnA2mYgzeGMMi6JnnUTmqNNKm"
+			]
+		}
+	},
+	"version": 1
+}

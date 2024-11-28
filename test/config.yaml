@@ -1,0 +1,40 @@
+bsc:
+  alpha:
+    server-address: http://127.0.0.1:7545
+    contract-address: 0x31638c55F8A912343D76192A4352FcCD6BE46e78
+    owner-public-key: 0x5fA043293aAB29EC4bd3F40623fAF06E501d160c
+    owner-private-key: 
+    test_user_public_key: 0xF7AdE54653dC19FA5e195a44f0F5c6A3899De7ae
+    test_user_pirvate_key: 
+  beta:
+    server-address: "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
+    contract-address: 0x98f564dd002b3712eb294ddcfd1c23eaa2bdb9bb
+    owner-public-key: 0x42e89025aa15e8c70aa5b713f6b3d6820b32404b
+    owner-private-key: 
+    test_user_public_key: 0x42e89025aa15e8c70aa5b713f6b3d6820b32404b
+    test_user_pirvate_key: 
+  gold:
+    server-address: https://opbnb-mainnet-rpc.bnbchain.org
+    contract-address: 0x4EC965a281551aad90ff5A7b0f2501A0DB1511dB
+    owner-public-key: 0xe245fa636F67E491b8052D7C77256Fc192edAd86
+    owner-private-key: 
+    test_user_public_key: 0x42e89025aa15e8c70aa5b713f6b3d6820b32404b
+    test_user_pirvate_key: 
+b2: 
+  gold:
+    server-address: https://mainnet.b2-rpc.com
+    contract-address: 0xa7a55e65be5deca1e1c4ce40a3e69d04b3abe796
+    owner-public-key: 0xe245fa636F67E491b8052D7C77256Fc192edAd86
+    owner-private-key: 
+    test_user_public_key: 0x42e89025aa15e8c70aa5b713f6b3d6820b32404b
+    test_user_pirvate_key: 
+  beta:
+    server-address: https://mainnet.b2-rpc.com
+    contract-address: 0xe0d414a8060f0c172656d7fd9e69b9ac9e75ec9d
+    owner-public-key: 0x42e89025aa15e8c70aa5b713f6b3d6820b32404b
+    owner-private-key: 
+    test_user_public_key: 0x42e89025aa15e8c70aa5b713f6b3d6820b32404b
+    test_user_pirvate_key: 
+using:
+  chain: b2
+  environment: gold
